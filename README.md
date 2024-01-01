@@ -6,13 +6,13 @@ This is a clock based Alarm clock project. You can set alarm by simply set hours
 
 ## Screenshots
 - Landing page:-
-![screenshot1](./screenshots/Screenshot%201.png)
+![screenshot1](https://drive.google.com/uc?id=1JzMN9wMuhkc_rzvJH2xZTdrBeuWRQuqO)
 
 - onset Alarm:-
-![screenshot](./screenshots/Screenshot%202.png)
+![screenshot](https://drive.google.com/uc?id=1yBHj3zWYhC9ja4sJeuHU6Gvcl1qwMsLM)
 
 - when Alarm goes on
-![screenshot](./screenshots/Screenshot%203.png)
+![screenshot](https://drive.google.com/uc?id=15WAhtaA8r3hX8gxMdFeuG1KcjqvIjxDv)
 
 ## Authors
 
