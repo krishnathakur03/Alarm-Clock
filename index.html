@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- main container -->
+    <div class="container-div">
+      <!-- heading div -->
+      <div class="heading-div">
+        <h3>Alarm Clock</h3>
+        <span id="time">12 : 00 : 00 AM</span>
+      </div>
+
+      <!-- set alarm div -->
+      <div class="inner-div">
+        <!-- select time to set alarm -->
+        <div id="selectTime">
+          <!-- select hour -->
+          <select name="selectHours" id="selectHours">
+            <option id="h" hidden>12</option>
+          </select>
+          <!-- select minutes -->
+          <label for="selectMinutes">:</label>
+          <select name="selectMinutes" id="selectMinutes">
+            <option id="m" hidden>00</option>
+          </select>
+          <!-- select seconds -->
+          <label for="selectSeconds">:</label>
+          <select name="selectSeconds" id="selectSeconds">
+            <option id="s" hidden>00</option>
+          </select>
+          <!-- select am_pm -->
+          <label for="selectAM_PM"></label>
+          <select name="selectAM_PM" id="selectAM_PM">
+            <option id="AM_PM" hidden>AM</option>
+            <option>AM</option>
+            <option>PM</option>
+          </select>
+        </div>
+        <!-- set alarm button -->
+        <div>
+          <button type="button" id="setAlarm">Set Alarm</button>
+        </div>
+      </div>
+
+      <!-- alarms list section -->
+      <div class="alarms-div">
+        <p class="alarms">Alarms</p>
+        <!-- alarms list -->
+        <div id="alarms">
+          <p id="no-alarm">--- no alarms ---</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

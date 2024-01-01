@@ -1,0 +1,100 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkslategrey;
+}
+
+.container-div {
+  border: 3px solid black;
+  border-radius: 40px;
+  margin: 4px;
+  padding: 4px;
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1.19);
+  background-color: teal;
+  width: 400px;
+  height: auto;
+}
+.heading-div h3, .alarms {
+  display: flex;
+  justify-content: center;
+  margin: 4px;
+  font-size: 30px;
+}
+#time {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: 400;
+  font-size: 30px;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  text-shadow: 0 0 4px black;
+  /* border: 2px solid; */
+}
+#selectTime {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: yellowgreen;
+  font-size: 25px;
+}
+#selectTime select {
+  margin: 4px;
+  padding: 4px;
+  align-items: center;
+  color: yellowgreen;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.inner-div div {
+  display: flex;
+  justify-content: center;
+}
+#setAlarm {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+  padding: 8px;
+  width: 200px;
+  font-size: 18px;
+  color: white;
+  background-color: yellowgreen;
+  border-radius: 10px;
+  text-shadow: 0 0 4px black;
+}
+.alarms-div{
+  background-color: rgb(75, 170, 224);
+  margin: 10px;
+  border-radius: 15px;
+  text-shadow: 0 0 2px gray;
+  box-shadow: 0px -1px 2px ;
+}
+#alarms{
+  height: 200px;
+  overflow-y: auto;
+  border-radius: 0 0 15px 15px;
+  background-color: antiquewhite;
+  box-shadow: inset 0 0 8px black;
+}
+
+.alarmsList{
+  display: flex;
+  color: darkgreen;
+  font-size: 20px;
+  justify-content: space-around;
+}
+
+.deleteButton {
+  color: white;
+  border: 2px solid red;
+  border-radius: 4px;
+  background-color: red;
+}
+#no-alarm{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
